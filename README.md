@@ -30,8 +30,8 @@ Once the extension is installed, add to config  :
 'modules' => [
     'liqpay' => [
         'class' => 'reactlogic\liqpay\Module',
-        'public_key' => 'sandbox_i59645978812',
-        'private_key' => 'sandbox_g80VP8wcnWOhpogR6Jjn0LvE6KtIgY6BFnF2ZsRl',
+        'public_key' => '',
+        'private_key' => '',
         'action' => 'paydonate',
         'amount' =>  null,
         'currency' => 'USD',
