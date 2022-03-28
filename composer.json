@@ -1,0 +1,24 @@
+{
+    "name": "reactlogic/yii2-reactlogic-liqpay",
+    "description": "ReactLogic LiqPay Module Desc",
+    "type": "yii2-extension",
+    "keywords": ["yii2","extension","liqpay"],
+    "license": "GPL-3.0",
+    "authors": [
+        {
+            "name": "Oleg",
+            "email": "ptenchik0@gmail.com"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "~2.0.0"
+    },
+    "extra": {
+        "bootstrap": "reactlogic\\liqpay\\Bootstrap"
+    },
+    "autoload": {
+        "psr-4": {
+            "reactlogic\\liqpay\\": ""
+        }
+    }
+}
